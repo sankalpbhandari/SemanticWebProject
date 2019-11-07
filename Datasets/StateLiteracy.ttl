@@ -6,202 +6,201 @@
 
 <http://www.krishna-arjun.org/class#AK> a <state> ;
     ns1:abbr "AK" ;
-    ns1:literacyrate 8.674093e+01 .
+    ns1:literacyrate 8.674e+01 .
 
 <http://www.krishna-arjun.org/class#AL> a <state> ;
     ns1:abbr "AL" ;
-    ns1:literacyrate 8.061781e+01 .
+    ns1:literacyrate 8.062e+01 .
 
 <http://www.krishna-arjun.org/class#AR> a <state> ;
     ns1:abbr "AR" ;
-    ns1:literacyrate 8.281395e+01 .
+    ns1:literacyrate 8.281e+01 .
 
 <http://www.krishna-arjun.org/class#AZ> a <state> ;
     ns1:abbr "AZ" ;
-    ns1:literacyrate 8.191384e+01 .
+    ns1:literacyrate 8.191e+01 .
 
 <http://www.krishna-arjun.org/class#CA> a <state> ;
     ns1:abbr "CA" ;
-    ns1:literacyrate 7.383717e+01 .
+    ns1:literacyrate 7.384e+01 .
 
 <http://www.krishna-arjun.org/class#CO> a <state> ;
     ns1:abbr "CO" ;
-    ns1:literacyrate 8.708328e+01 .
+    ns1:literacyrate 8.708e+01 .
 
 <http://www.krishna-arjun.org/class#CT> a <state> ;
     ns1:abbr "CT" ;
-    ns1:literacyrate 8.745945e+01 .
+    ns1:literacyrate 8.746e+01 .
 
 <http://www.krishna-arjun.org/class#DC> a <state> ;
     ns1:abbr "DC" ;
-    ns1:literacyrate 6.691069e+01 .
+    ns1:literacyrate 6.691e+01 .
 
 <http://www.krishna-arjun.org/class#DE> a <state> ;
     ns1:abbr "DE" ;
-    ns1:literacyrate 8.359446e+01 .
+    ns1:literacyrate 8.359e+01 .
 
 <http://www.krishna-arjun.org/class#FL> a <state> ;
     ns1:abbr "FL" ;
-    ns1:literacyrate 7.706218e+01 .
+    ns1:literacyrate 7.706e+01 .
 
 <http://www.krishna-arjun.org/class#GA> a <state> ;
     ns1:abbr "GA" ;
-    ns1:literacyrate 7.926298e+01 .
+    ns1:literacyrate 7.926e+01 .
 
 <http://www.krishna-arjun.org/class#HI> a <state> ;
     ns1:abbr "HI" ;
-    ns1:literacyrate 7.778584e+01 .
+    ns1:literacyrate 7.779e+01 .
 
 <http://www.krishna-arjun.org/class#I> a <state> ;
     ns1:abbr "I" ;
-    ns1:literacyrate 8.989941e+01 .
+    ns1:literacyrate 8.99e+01 .
 
 <http://www.krishna-arjun.org/class#ID> a <state> ;
     ns1:abbr "ID" ;
-    ns1:literacyrate 8.624424e+01 .
+    ns1:literacyrate 8.624e+01 .
 
 <http://www.krishna-arjun.org/class#IL> a <state> ;
     ns1:abbr "IL" ;
-    ns1:literacyrate 8.338874e+01 .
+    ns1:literacyrate 8.339e+01 .
 
 <http://www.krishna-arjun.org/class#IN> a <state> ;
     ns1:abbr "IN" ;
-    ns1:literacyrate 8.972432e+01 .
+    ns1:literacyrate 8.972e+01 .
 
 <http://www.krishna-arjun.org/class#KS> a <state> ;
     ns1:abbr "KS" ;
-    ns1:literacyrate 8.983856e+01 .
+    ns1:literacyrate 8.984e+01 .
 
 <http://www.krishna-arjun.org/class#KY> a <state> ;
     ns1:abbr "KY" ;
-    ns1:literacyrate 8.565772e+01 .
+    ns1:literacyrate 8.566e+01 .
 
 <http://www.krishna-arjun.org/class#LA> a <state> ;
     ns1:abbr "LA" ;
-    ns1:literacyrate 7.970999e+01 .
+    ns1:literacyrate 7.971e+01 .
 
 <http://www.krishna-arjun.org/class#MA> a <state> ;
     ns1:abbr "MA" ;
-    ns1:literacyrate 8.794522e+01 .
+    ns1:literacyrate 8.795e+01 .
 
 <http://www.krishna-arjun.org/class#MD> a <state> ;
     ns1:abbr "MD" ;
-    ns1:literacyrate 8.627738e+01 .
+    ns1:literacyrate 8.628e+01 .
 
 <http://www.krishna-arjun.org/class#ME> a <state> ;
     ns1:abbr "ME" ;
-    ns1:literacyrate 8.979475e+01 .
+    ns1:literacyrate 8.979e+01 .
 
 <http://www.krishna-arjun.org/class#MI> a <state> ;
     ns1:abbr "MI" ;
-    ns1:literacyrate 8.89647e+01 .
+    ns1:literacyrate 8.896e+01 .
 
 <http://www.krishna-arjun.org/class#MN> a <state> ;
     ns1:abbr "MN" ;
-    ns1:literacyrate 9.20316e+01 .
+    ns1:literacyrate 9.203e+01 .
 
 <http://www.krishna-arjun.org/class#MO> a <state> ;
     ns1:abbr "MO" ;
-    ns1:literacyrate 9.082391e+01 .
+    ns1:literacyrate 9.082e+01 .
 
 <http://www.krishna-arjun.org/class#MS> a <state> ;
     ns1:abbr "MS" ;
-    ns1:literacyrate 7.916931e+01 .
+    ns1:literacyrate 7.917e+01 .
 
 <http://www.krishna-arjun.org/class#MT> a <state> ;
     ns1:abbr "MT" ;
-    ns1:literacyrate 8.781721e+01 .
+    ns1:literacyrate 8.782e+01 .
 
 <http://www.krishna-arjun.org/class#NC> a <state> ;
     ns1:abbr "NC" ;
-    ns1:literacyrate 8.35455e+01 .
+    ns1:literacyrate 8.355e+01 .
 
 <http://www.krishna-arjun.org/class#ND> a <state> ;
     ns1:abbr "ND" ;
-    ns1:literacyrate 9.098461e+01 .
+    ns1:literacyrate 9.098e+01 .
 
 <http://www.krishna-arjun.org/class#NE> a <state> ;
     ns1:abbr "NE" ;
-    ns1:literacyrate 9.029127e+01 .
+    ns1:literacyrate 9.029e+01 .
 
 <http://www.krishna-arjun.org/class#NH> a <state> ;
     ns1:abbr "NH" ;
-    ns1:literacyrate 9.182066e+01 .
+    ns1:literacyrate 9.182e+01 .
 
 <http://www.krishna-arjun.org/class#NJ> a <state> ;
     ns1:abbr "NJ" ;
-    ns1:literacyrate 7.916461e+01 .
+    ns1:literacyrate 7.916e+01 .
 
 <http://www.krishna-arjun.org/class#NM> a <state> ;
     ns1:abbr "NM" ;
-    ns1:literacyrate 7.841831e+01 .
+    ns1:literacyrate 7.842e+01 .
 
 <http://www.krishna-arjun.org/class#NV> a <state> ;
     ns1:abbr "NV" ;
-    ns1:literacyrate 7.473932e+01 .
+    ns1:literacyrate 7.474e+01 .
 
 <http://www.krishna-arjun.org/class#NY> a <state> ;
     ns1:abbr "NY" ;
-    ns1:literacyrate 7.49853e+01 .
+    ns1:literacyrate 7.499e+01 .
 
 <http://www.krishna-arjun.org/class#OH> a <state> ;
     ns1:abbr "OH" ;
-    ns1:literacyrate 8.804892e+01 .
+    ns1:literacyrate 8.805e+01 .
 
 <http://www.krishna-arjun.org/class#OK> a <state> ;
     ns1:abbr "OK" ;
-    ns1:literacyrate 8.547288e+01 .
+    ns1:literacyrate 8.547e+01 .
 
 <http://www.krishna-arjun.org/class#OR> a <state> ;
     ns1:abbr "OR" ;
-    ns1:literacyrate 8.612302e+01 .
+    ns1:literacyrate 8.612e+01 .
 
 <http://www.krishna-arjun.org/class#PA> a <state> ;
     ns1:abbr "PA" ;
-    ns1:literacyrate 8.449123e+01 .
+    ns1:literacyrate 8.449e+01 .
 
 <http://www.krishna-arjun.org/class#RI> a <state> ;
     ns1:abbr "RI" ;
-    ns1:literacyrate 8.605865e+01 .
+    ns1:literacyrate 8.606e+01 .
 
 <http://www.krishna-arjun.org/class#SC> a <state> ;
     ns1:abbr "SC" ;
-    ns1:literacyrate 8.155046e+01 .
+    ns1:literacyrate 8.155e+01 .
 
 <http://www.krishna-arjun.org/class#SD> a <state> ;
     ns1:abbr "SD" ;
-    ns1:literacyrate 9.025471e+01 .
+    ns1:literacyrate 9.025e+01 .
 
 <http://www.krishna-arjun.org/class#TN> a <state> ;
     ns1:abbr "TN" ;
-    ns1:literacyrate 8.345342e+01 .
+    ns1:literacyrate 8.345e+01 .
 
 <http://www.krishna-arjun.org/class#TX> a <state> ;
     ns1:abbr "TX" ;
-    ns1:literacyrate 7.793134e+01 .
+    ns1:literacyrate 7.793e+01 .
 
 <http://www.krishna-arjun.org/class#UT> a <state> ;
     ns1:abbr "UT" ;
-    ns1:literacyrate 8.613093e+01 .
+    ns1:literacyrate 8.613e+01 .
 
 <http://www.krishna-arjun.org/class#VA> a <state> ;
     ns1:abbr "VA" ;
-    ns1:literacyrate 8.517776e+01 .
+    ns1:literacyrate 8.518e+01 .
 
 <http://www.krishna-arjun.org/class#VT> a <state> ;
     ns1:abbr "VT" ;
-    ns1:literacyrate 9.06333e+01 .
+    ns1:literacyrate 9.063e+01 .
 
 <http://www.krishna-arjun.org/class#WA> a <state> ;
     ns1:abbr "WA" ;
-    ns1:literacyrate 8.718204e+01 .
+    ns1:literacyrate 8.718e+01 .
 
 <http://www.krishna-arjun.org/class#WI> a <state> ;
     ns1:abbr "WI" ;
-    ns1:literacyrate 8.278747e+01,
-        9.010351e+01 .
+    ns1:literacyrate 9.01e+01 .
 
 <http://www.krishna-arjun.org/class#WY> a <state> ;
     ns1:abbr "WY" ;
-    ns1:literacyrate 8.777158e+01 .
+    ns1:literacyrate 8.777e+01 .
 
