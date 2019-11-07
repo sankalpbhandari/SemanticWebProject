@@ -1,0 +1,242 @@
+@prefix ns1: <http://www.krishna-arjun.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.krishna-arjun.org/class#AK> a <state> ;
+    ns1:abbr "AK" ;
+    ns1:name "Alaska" .
+
+<http://www.krishna-arjun.org/class#AL> a <state> ;
+    ns1:abbr "AL" ;
+    ns1:name "Alabama" .
+
+<http://www.krishna-arjun.org/class#AR> a <state> ;
+    ns1:abbr "AR" ;
+    ns1:name "Arkansas" .
+
+<http://www.krishna-arjun.org/class#AS> a <state> ;
+    ns1:abbr "AS" ;
+    ns1:name "American Samoa" .
+
+<http://www.krishna-arjun.org/class#AZ> a <state> ;
+    ns1:abbr "AZ" ;
+    ns1:name "Arizona" .
+
+<http://www.krishna-arjun.org/class#CA> a <state> ;
+    ns1:abbr "CA" ;
+    ns1:name "California" .
+
+<http://www.krishna-arjun.org/class#CO> a <state> ;
+    ns1:abbr "CO" ;
+    ns1:name "Colorado" .
+
+<http://www.krishna-arjun.org/class#CT> a <state> ;
+    ns1:abbr "CT" ;
+    ns1:name "Connecticut" .
+
+<http://www.krishna-arjun.org/class#DC> a <state> ;
+    ns1:abbr "DC" ;
+    ns1:name "District of Columbia" .
+
+<http://www.krishna-arjun.org/class#DE> a <state> ;
+    ns1:abbr "DE" ;
+    ns1:name "Delaware" .
+
+<http://www.krishna-arjun.org/class#FL> a <state> ;
+    ns1:abbr "FL" ;
+    ns1:name "Florida" .
+
+<http://www.krishna-arjun.org/class#FM> a <state> ;
+    ns1:abbr "FM" ;
+    ns1:name "Federated States of Micronesia" .
+
+<http://www.krishna-arjun.org/class#GA> a <state> ;
+    ns1:abbr "GA" ;
+    ns1:name "Georgia" .
+
+<http://www.krishna-arjun.org/class#GU> a <state> ;
+    ns1:abbr "GU" ;
+    ns1:name "Guam" .
+
+<http://www.krishna-arjun.org/class#HI> a <state> ;
+    ns1:abbr "HI" ;
+    ns1:name "Hawaii" .
+
+<http://www.krishna-arjun.org/class#IA> a <state> ;
+    ns1:abbr "IA" ;
+    ns1:name "Iowa" .
+
+<http://www.krishna-arjun.org/class#ID> a <state> ;
+    ns1:abbr "ID" ;
+    ns1:name "Idaho" .
+
+<http://www.krishna-arjun.org/class#IL> a <state> ;
+    ns1:abbr "IL" ;
+    ns1:name "Illinois" .
+
+<http://www.krishna-arjun.org/class#IN> a <state> ;
+    ns1:abbr "IN" ;
+    ns1:name "Indiana" .
+
+<http://www.krishna-arjun.org/class#KS> a <state> ;
+    ns1:abbr "KS" ;
+    ns1:name "Kansas" .
+
+<http://www.krishna-arjun.org/class#KY> a <state> ;
+    ns1:abbr "KY" ;
+    ns1:name "Kentucky" .
+
+<http://www.krishna-arjun.org/class#LA> a <state> ;
+    ns1:abbr "LA" ;
+    ns1:name "Louisiana" .
+
+<http://www.krishna-arjun.org/class#MA> a <state> ;
+    ns1:abbr "MA" ;
+    ns1:name "Massachusetts" .
+
+<http://www.krishna-arjun.org/class#MD> a <state> ;
+    ns1:abbr "MD" ;
+    ns1:name "Maryland" .
+
+<http://www.krishna-arjun.org/class#ME> a <state> ;
+    ns1:abbr "ME" ;
+    ns1:name "Maine" .
+
+<http://www.krishna-arjun.org/class#MH> a <state> ;
+    ns1:abbr "MH" ;
+    ns1:name "Marshall Islands" .
+
+<http://www.krishna-arjun.org/class#MI> a <state> ;
+    ns1:abbr "MI" ;
+    ns1:name "Michigan" .
+
+<http://www.krishna-arjun.org/class#MN> a <state> ;
+    ns1:abbr "MN" ;
+    ns1:name "Minnesota" .
+
+<http://www.krishna-arjun.org/class#MO> a <state> ;
+    ns1:abbr "MO" ;
+    ns1:name "Missouri" .
+
+<http://www.krishna-arjun.org/class#MP> a <state> ;
+    ns1:abbr "MP" ;
+    ns1:name "Northern Mariana Islands" .
+
+<http://www.krishna-arjun.org/class#MS> a <state> ;
+    ns1:abbr "MS" ;
+    ns1:name "Mississippi" .
+
+<http://www.krishna-arjun.org/class#MT> a <state> ;
+    ns1:abbr "MT" ;
+    ns1:name "Montana" .
+
+<http://www.krishna-arjun.org/class#NC> a <state> ;
+    ns1:abbr "NC" ;
+    ns1:name "North Carolina" .
+
+<http://www.krishna-arjun.org/class#ND> a <state> ;
+    ns1:abbr "ND" ;
+    ns1:name "North Dakota" .
+
+<http://www.krishna-arjun.org/class#NE> a <state> ;
+    ns1:abbr "NE" ;
+    ns1:name "Nebraska" .
+
+<http://www.krishna-arjun.org/class#NH> a <state> ;
+    ns1:abbr "NH" ;
+    ns1:name "New Hampshire" .
+
+<http://www.krishna-arjun.org/class#NJ> a <state> ;
+    ns1:abbr "NJ" ;
+    ns1:name "New Jersey" .
+
+<http://www.krishna-arjun.org/class#NM> a <state> ;
+    ns1:abbr "NM" ;
+    ns1:name "New Mexico" .
+
+<http://www.krishna-arjun.org/class#NV> a <state> ;
+    ns1:abbr "NV" ;
+    ns1:name "Nevada" .
+
+<http://www.krishna-arjun.org/class#NY> a <state> ;
+    ns1:abbr "NY" ;
+    ns1:name "New York" .
+
+<http://www.krishna-arjun.org/class#OH> a <state> ;
+    ns1:abbr "OH" ;
+    ns1:name "Ohio" .
+
+<http://www.krishna-arjun.org/class#OK> a <state> ;
+    ns1:abbr "OK" ;
+    ns1:name "Oklahoma" .
+
+<http://www.krishna-arjun.org/class#OR> a <state> ;
+    ns1:abbr "OR" ;
+    ns1:name "Oregon" .
+
+<http://www.krishna-arjun.org/class#PA> a <state> ;
+    ns1:abbr "PA" ;
+    ns1:name "Pennsylvania" .
+
+<http://www.krishna-arjun.org/class#PR> a <state> ;
+    ns1:abbr "PR" ;
+    ns1:name "Puerto Rico" .
+
+<http://www.krishna-arjun.org/class#PW> a <state> ;
+    ns1:abbr "PW" ;
+    ns1:name "Palau" .
+
+<http://www.krishna-arjun.org/class#RI> a <state> ;
+    ns1:abbr "RI" ;
+    ns1:name "Rhode Island" .
+
+<http://www.krishna-arjun.org/class#SC> a <state> ;
+    ns1:abbr "SC" ;
+    ns1:name "South Carolina" .
+
+<http://www.krishna-arjun.org/class#SD> a <state> ;
+    ns1:abbr "SD" ;
+    ns1:name "South Dakota" .
+
+<http://www.krishna-arjun.org/class#TN> a <state> ;
+    ns1:abbr "TN" ;
+    ns1:name "Tennessee" .
+
+<http://www.krishna-arjun.org/class#TX> a <state> ;
+    ns1:abbr "TX" ;
+    ns1:name "Texas" .
+
+<http://www.krishna-arjun.org/class#UT> a <state> ;
+    ns1:abbr "UT" ;
+    ns1:name "Utah" .
+
+<http://www.krishna-arjun.org/class#VA> a <state> ;
+    ns1:abbr "VA" ;
+    ns1:name "Virginia" .
+
+<http://www.krishna-arjun.org/class#VI> a <state> ;
+    ns1:abbr "VI" ;
+    ns1:name "Virgin Islands" .
+
+<http://www.krishna-arjun.org/class#VT> a <state> ;
+    ns1:abbr "VT" ;
+    ns1:name "Vermont" .
+
+<http://www.krishna-arjun.org/class#WA> a <state> ;
+    ns1:abbr "WA" ;
+    ns1:name "Washington" .
+
+<http://www.krishna-arjun.org/class#WI> a <state> ;
+    ns1:abbr "WI" ;
+    ns1:name "Wisconsin" .
+
+<http://www.krishna-arjun.org/class#WV> a <state> ;
+    ns1:abbr "WV" ;
+    ns1:name "West Virginia" .
+
+<http://www.krishna-arjun.org/class#WY> a <state> ;
+    ns1:abbr "WY" ;
+    ns1:name "Wyoming" .
+
