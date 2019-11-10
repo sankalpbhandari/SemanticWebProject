@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.krishna-arjun.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#NV">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74.74</ns1:literacyrate>
+    <ns1:abbr>NV</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#LA">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>LA</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">79.71</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#RI">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.06</ns1:literacyrate>
+    <ns1:abbr>RI</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#DE">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83.59</ns1:literacyrate>
+    <ns1:abbr>DE</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#UT">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.13</ns1:literacyrate>
+    <ns1:abbr>UT</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#IL">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>IL</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83.39</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#NM">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.42</ns1:literacyrate>
+    <ns1:abbr>NM</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#ID">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.24</ns1:literacyrate>
+    <ns1:abbr>ID</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#CT">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">87.46</ns1:literacyrate>
+    <ns1:abbr>CT</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#KY">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.66</ns1:literacyrate>
+    <ns1:abbr>KY</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#OH">
+    <ns1:abbr>OH</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88.05</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#ND">
+    <ns1:abbr>ND</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.98</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#WI">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>WI</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.1</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#MT">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">87.82</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>MT</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#WA">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">87.18</ns1:literacyrate>
+    <ns1:abbr>WA</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#NE">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.29</ns1:literacyrate>
+    <ns1:abbr>NE</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#NH">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">91.82</ns1:literacyrate>
+    <ns1:abbr>NH</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#GA">
+    <ns1:abbr>GA</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">79.26</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#ME">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>ME</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">89.79</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#DC">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66.91</ns1:literacyrate>
+    <ns1:abbr>DC</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#OK">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>OK</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.47</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#NY">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74.99</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>NY</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#HI">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77.79</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>HI</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#MD">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.28</ns1:literacyrate>
+    <ns1:abbr>MD</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#SD">
+    <ns1:abbr>SD</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.25</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#NC">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83.55</ns1:literacyrate>
+    <ns1:abbr>NC</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#PA">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">84.49</ns1:literacyrate>
+    <ns1:abbr>PA</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#KS">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">89.84</ns1:literacyrate>
+    <ns1:abbr>KS</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#AL">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.62</ns1:literacyrate>
+    <ns1:abbr>AL</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#VA">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.18</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>VA</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#MA">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">87.95</ns1:literacyrate>
+    <ns1:abbr>MA</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#TX">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77.93</ns1:literacyrate>
+    <ns1:abbr>TX</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#AK">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.74</ns1:literacyrate>
+    <ns1:abbr>AK</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#WY">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">87.77</ns1:literacyrate>
+    <ns1:abbr>WY</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#OR">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>OR</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.12</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#AR">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">82.81</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>AR</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#MI">
+    <ns1:abbr>MI</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88.96</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#MO">
+    <ns1:abbr>MO</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.82</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#CA">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">73.84</ns1:literacyrate>
+    <ns1:abbr>CA</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#FL">
+    <ns1:abbr>FL</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77.06</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#NJ">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>NJ</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">79.16</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#AZ">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81.91</ns1:literacyrate>
+    <ns1:abbr>AZ</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#SC">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81.55</ns1:literacyrate>
+    <ns1:abbr>SC</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#CO">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">87.08</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>CO</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#TN">
+    <ns1:abbr>TN</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83.45</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#I">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">89.9</ns1:literacyrate>
+    <ns1:abbr>I</ns1:abbr>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#VT">
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.63</ns1:literacyrate>
+    <ns1:abbr>VT</ns1:abbr>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#MN">
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+    <ns1:abbr>MN</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92.03</ns1:literacyrate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#IN">
+    <ns1:abbr>IN</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">89.72</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.krishna-arjun.org/#MS">
+    <ns1:abbr>MS</ns1:abbr>
+    <ns1:literacyrate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">79.17</ns1:literacyrate>
+    <rdf:type rdf:resource="http://www.krishna-arjun.org/class#state"/>
+  </rdf:Description>
+</rdf:RDF>
