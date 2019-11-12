@@ -47,7 +47,7 @@ var myBarChart = new Chart(ctx, {
   
     datasets: [{
       backgroundColor: "rgb(255,99,132)", // green
-       label: 'Legend',
+       label: 'States',
        data: [
         {
           x: 86.74,
