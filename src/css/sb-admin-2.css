@@ -65,8 +65,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #858796;
-  text-align: left;
+  text-align: center;
   background-color: #fff;
+  margin-bottom:50px;
 }
 
 [tabindex="-1"]:focus {
@@ -3954,7 +3955,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -3963,7 +3964,7 @@ input[type="button"].btn-block {
 
 .navbar > .container,
 .navbar > .container-fluid {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -10984,8 +10985,12 @@ form.user .btn-user {
 }
 
 footer.sticky-footer {
-  padding: 2rem 0;
-  flex-shrink: 0;
+  background-color: rgb(190, 22, 22);
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
 }
 
 footer.sticky-footer .copyright {
@@ -10995,4 +11000,17 @@ footer.sticky-footer .copyright {
 
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
+}
+
+.myfooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #011316b0!important;
+  padding-top: 1px;
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding-bottom: 0px;
 }
