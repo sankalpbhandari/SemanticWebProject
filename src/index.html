@@ -10,7 +10,13 @@
   <meta name="author" content="">
 
   <title>Semantic Web Project</title>
-
+<style>
+.scroll {
+    width: 412px;
+    overflow: auto;
+    white-space: nowrap;
+}
+</style>
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -170,45 +176,72 @@
           <!-- Content Row -->
           <div class="row">
               <div class="col">
-              <div class="card shadow mb-4">
+              <div class="card border-left-primary shadow mb-4">
                   <!-- Card Header - Accordion -->
                   <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
-                    <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">State vs Literacy</h6>
                   </a>
                   <!-- Card Content - Collapse -->
-                  <div class="collapse show" id="collapseCardExample">
-                    <div class="card-body">
-                      This is a collapsable card example using Bootstrap's built in collapse functionality. <strong>Click on the card header</strong> to see the card body collapse and expand!
-                    </div>
+                  <div class="collapse multi-collapse" id="collapseCardExample">
+                    <div class="card-body text-left scroll">
+					  <code>
+					  select ?state_name ?literacyrate <br>
+						where { <br>
+						?sub &lthttp://www.krishna-arjun.org/literacyrate&gt ?literacyrate . <br>
+						?sub &lthttp://www.krishna-arjun.org/abbr&gt ?abbr . <br>
+						?sub &lthttp://www.krishna-arjun.org/name&gt ?state_name . }<br>						
+					  </code>
+					  </div>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card shadow mb-4">
+                <div class="card border-left-success shadow mb-4">
                     <!-- Card Header - Accordion -->
                     <a href="#collapseCardExample1" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
-                      <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                      <h6 class="m-0 font-weight-bold text-success">State vs Average Funding</h6>
                     </a>
                     <!-- Card Content - Collapse -->
-                    <div class="collapse show" id="collapseCardExample1">
-                      <div class="card-body">
-                        This is a collapsable card example using Bootstrap's built in collapse functionality. <strong>Click on the card header</strong> to see the card body collapse and expand!
-                      </div>
+                    <div class="collapse" id="collapseCardExample1">
+                    <div class="card-body text-left scroll">
+					  <code>
+					select ?name SUM(xsd:double(?disbursement))/SUM(xsd:double(?students <br>
+					where { <br>
+					?sub &lthttp://www.krishna-arjun.org/schooltype&gt ?types . <br>
+					?types ?p ?node. <br>
+					?node &lthttp://www.krishna-arjun.org/Disbursement&gt ?disbursement . <br>
+					?node &lthttp://www.krishna-arjun.org/NoOfStudents&gt ?students. <br>
+					?sub &lthttp://www.krishna-arjun.org/name&gt ?name . <br>
+					} <br>
+					GROUP BY(?name) <br>
+</code>
+					  </div>
                     </div>
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card shadow mb-4">
+                  <div class="card border-left-info shadow mb-4">
                       <!-- Card Header - Accordion -->
                       <a href="#collapseCardExample2" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
-                        <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                        <h6 class="m-0 font-weight-bold text-info">Average State Fund vs Literacy</h6>
                       </a>
                       <!-- Card Content - Collapse -->
-                      <div class="collapse show" id="collapseCardExample2">
-                        <div class="card-body">
-                          This is a collapsable card example using Bootstrap's built in collapse functionality. <strong>Click on the card header</strong> to see the card body collapse and expand!
-                        </div>
+                      <div class="collapse" id="collapseCardExample2">
+                    <div class="card-body text-left scroll">
+					  <code>
+					select ?name SUM(xsd:double(?disbursement))/SUM(xsd:double(?students)) ?literacyrate
+					<br>where {
+					<br>?sub &lthttp://www.krishna-arjun.org/schooltype&gt ?types .
+					<br>?types ?p ?node.
+					<br>?node &lthttp://www.krishna-arjun.org/Disbursement&gt ?disbursement .
+					<br>?node &lthttp://www.krishna-arjun.org/NoOfStudents&gt ?students.
+					<br>?sub &lthttp://www.krishna-arjun.org/name&gt ?name .
+					<br>?sub &lthttp://www.krishna-arjun.org/literacyrate&gt ?literacyrate .
+					<br>}
+					<br>GROUP BY(?name)
+</code>
+					  </div>
                       </div>
                     </div>
               </div>
@@ -218,48 +251,76 @@
 
             
           <div class="col">
-              <div class="card shadow mb-4">
+              <div class="card border-left-primary shadow mb-4">
                   <!-- Card Header - Accordion -->
-                  <a href="#collapseCardExample2" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
-                    <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                  <a href="#collapseCardExample3" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
+                    <h6 class="m-0 font-weight-bold text-primary">State SchoolType vs Total Funding</h6>
                   </a>
                   <!-- Card Content - Collapse -->
-                  <div class="collapse show" id="collapseCardExample2">
-                    <div class="card-body">
-                      This is a collapsable card example using Bootstrap's built in collapse functionality. <strong>Click on the card header</strong> to see the card body collapse and expand!
-                    </div>
+                  <div class="collapse" id="collapseCardExample3">
+                    <div class="card-body text-left scroll">
+					  <code>
+					select ?name SUM(xsd:double(?funding))/2
+					<br>where {
+					<br>?sub &lthttp://www.krishna-arjun.org/schooltype&gt ?types .
+					<br>?types ?p ?node.
+					<br>?node &lthttp://www.krishna-arjun.org/Disbursement&gt ?funding.
+					<br>?sub &lthttp://www.krishna-arjun.org/name&gt ?name .
+					<br>}
+					<br>GROUP BY(?name)
+					</code>
+					  </div>
                   </div>
                 </div>
           </div>
           <!-- col1 end -->
 
           <div class="col">
-              <div class="card shadow mb-4">
+              <div class="card border-left-success shadow mb-4">
                   <!-- Card Header - Accordion -->
-                  <a href="#collapseCardExample2" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
-                    <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                  <a href="#collapseCardExample4" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
+                    <h6 class="m-0 font-weight-bold text-success">State SchoolType vs Average Funding</h6>
                   </a>
                   <!-- Card Content - Collapse -->
-                  <div class="collapse show" id="collapseCardExample2">
-                    <div class="card-body">
-                      This is a collapsable card example using Bootstrap's built in collapse functionality. <strong>Click on the card header</strong> to see the card body collapse and expand!
-                    </div>
+                  <div class="collapse" id="collapseCardExample4">
+                    <div class="card-body text-left scroll">
+					  <code>
+					select ?name SUM(xsd:double(?disbursement))/SUM(xsd:double(?students))
+					<br>where {
+					<br>?sub &lthttp://www.krishna-arjun.org/schooltype&gt ?types .
+					<br>?types ?p ?node.
+					<br>?node &lthttp://www.krishna-arjun.org/Disbursement&gt ?disbursement .
+					<br>?node &lthttp://www.krishna-arjun.org/NoOfStudents&gt ?students.
+					<br>?sub &lthttp://www.krishna-arjun.org/name&gt ?name .
+					<br>}
+					<br>GROUP BY(?name)
+					</code>
+					  </div>
                   </div>
                 </div>
           </div>
           <!-- col 2end -->
 
           <div class="col">
-              <div class="card shadow mb-4">
+              <div class="card border-left-info shadow mb-4">
                   <!-- Card Header - Accordion -->
-                  <a href="#collapseCardExample2" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
-                    <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                  <a href="#collapseCardExample5" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
+                    <h6 class="m-0 font-weight-bold text-info">State SchoolType vs No of Students</h6>
                   </a>
                   <!-- Card Content - Collapse -->
-                  <div class="collapse show" id="collapseCardExample2">
-                    <div class="card-body">
-                      This is a collapsable card example using Bootstrap's built in collapse functionality. <strong>Click on the card header</strong> to see the card body collapse and expand!
-                    </div>
+                  <div class="collapse" id="collapseCardExample5">
+                    <div class="card-body text-left scroll">
+					  <code>
+					select ?name SUM(xsd:integer(?students))/2
+					<br>where {
+					<br>?sub &lthttp://www.krishna-arjun.org/schooltype&gt ?types .
+					<br>?types ?p ?node.
+					<br>?node &lthttp://www.krishna-arjun.org/NoOfStudents&gt ?students.
+					<br>?sub &lthttp://www.krishna-arjun.org/name&gt ?name .
+					<br>}
+					<br>GROUP BY(?name)
+					</code>
+					  </div>
                   </div>
                 </div>
           </div>
@@ -280,7 +341,7 @@
   <footer class="myfooter">
       <div class="container my-auto">
         <div class="copyright text-center my-auto">
-          <span>Copyright &copy; www.krishan-arjun.com/swproject 2019</span>
+          <span>Copyright &copy; www.krishna-arjun.com/swproject 2019</span>
         </div>
       </div>
     </footer>
