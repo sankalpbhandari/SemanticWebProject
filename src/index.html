@@ -205,7 +205,7 @@
                     <div class="collapse" id="collapseCardExample1">
                     <div class="card-body text-left scroll">
 					  <code>
-					select ?name SUM(xsd:double(?disbursement))/SUM(xsd:double(?students <br>
+					select ?name SUM(xsd:double(?disbursement))/SUM(xsd:double(?students)) <br>
 					where { <br>
 					?sub &lthttp://www.krishna-arjun.org/schooltype&gt ?types . <br>
 					?types ?p ?node. <br>
@@ -239,7 +239,7 @@
 					<br>?sub &lthttp://www.krishna-arjun.org/name&gt ?name .
 					<br>?sub &lthttp://www.krishna-arjun.org/literacyrate&gt ?literacyrate .
 					<br>}
-					<br>GROUP BY(?name)
+					<br>GROUP BY ?name ?literacyrate
 </code>
 					  </div>
                       </div>

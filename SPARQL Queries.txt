@@ -1,0 +1,67 @@
+State vs Literacy
+
+select ?state_name ?literacyrate
+where {
+?sub <http://www.krishna-arjun.org/literacyrate> ?literacyrate .
+?sub <http://www.krishna-arjun.org/abbr> ?abbr .
+?sub <http://www.krishna-arjun.org/name> ?state_name . }
+
+State vs Avg Funding
+
+select ?name SUM(xsd:double(?disbursement))/SUM(xsd:double(?students))
+where {
+?sub <http://www.krishna-arjun.org/schooltype> ?types .
+?types ?p ?node.
+?node <http://www.krishna-arjun.org/Disbursement> ?disbursement .
+?node <http://www.krishna-arjun.org/NoOfStudents> ?students.
+?sub <http://www.krishna-arjun.org/name> ?name .
+}
+GROUP BY(?name)
+
+Avg State Fund vs Literacy
+
+select ?name SUM(xsd:double(?disbursement))/SUM(xsd:double(?students)) ?literacyrate
+where {
+?sub <http://www.krishna-arjun.org/schooltype> ?types .
+?types ?p ?node.
+?node <http://www.krishna-arjun.org/Disbursement> ?disbursement .
+?node <http://www.krishna-arjun.org/NoOfStudents> ?students.
+?sub <http://www.krishna-arjun.org/name> ?name .
+?sub <http://www.krishna-arjun.org/literacyrate> ?literacyrate .
+}
+GROUP BY ?name ?literacyrate
+
+State Schooltype vs Total Funding
+
+select ?name SUM(xsd:double(?funding))/2
+where {
+?sub <http://www.krishna-arjun.org/schooltype> ?types .
+?types ?p ?node.
+?node <http://www.krishna-arjun.org/Disbursement> ?funding.
+?sub <http://www.krishna-arjun.org/name> ?name .
+}
+GROUP BY(?name)
+
+State Schooltype vs Avg Funding
+
+select ?name SUM(xsd:double(?disbursement))/SUM(xsd:double(?students))
+where {
+?sub <http://www.krishna-arjun.org/schooltype> ?types .
+?types ?p ?node.
+?node <http://www.krishna-arjun.org/Disbursement> ?disbursement .
+?node <http://www.krishna-arjun.org/NoOfStudents> ?students.
+?sub <http://www.krishna-arjun.org/name> ?name .
+}
+GROUP BY(?name)
+
+
+State Schooltype vs No of Students
+
+select ?name SUM(xsd:integer(?students))/2
+where {
+?sub <http://www.krishna-arjun.org/schooltype> ?types .
+?types ?p ?node.
+?node <http://www.krishna-arjun.org/NoOfStudents> ?students.
+?sub <http://www.krishna-arjun.org/name> ?name .
+}
+GROUP BY(?name)
